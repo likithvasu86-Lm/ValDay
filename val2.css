@@ -1,0 +1,74 @@
+body{
+  background-color:rgb(148, 127, 12);
+  display:flex;
+  justify-content: center;
+  padding-bottom:500px;
+  height:1200px;
+  
+  background-image: url("pics/back.avif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.letter-pic{
+  position:absolute;
+  margin-top:75px;
+  height:1536px;
+  width:900px;
+  object-fit: fill;
+  z-index: -10;
+  box-shadow: 7px 7px 5px #888888;
+}
+p{
+  font-family: Dancing Script,Arial;
+  font-size:1.25em;
+  margin-bottom:20px;
+  white-space: wrap;
+  line-height: 1.25em;
+}
+.letter-content{
+  width:600px;
+  position:relative;
+  top:135px;
+  left:100px;
+  font-size:large;
+  font-style:Roboto;
+}
+h1{
+  font-family: Dancing Script,Arial;
+  font-weight:bolder;
+  font-size:25px;
+  display:block;
+}
+.polaroid1,.polaroid2,.polaroid3{
+  position:fixed;
+  height:contain;
+  width:200px;
+  left:50px;
+}
+.polaroid1{
+  top:15px;
+}
+.polaroid2{
+  top:256px;
+}
+.polaroid3{
+  top:496.8px;
+}
+.polaroid4,.polaroid5,.polaroid6{
+  position:fixed;
+  height:contain;
+  width:200px;
+  right:50px;
+}
+.polaroid4{
+  top:15px;
+}
+.polaroid5{
+  top:256px;
+}
+.polaroid6{
+  top:496.8px;
+}
+
