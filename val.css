@@ -17,9 +17,6 @@ a{
   left:600px;
   width:700px;
 }
-h1{
-  left:50px;
-}
 .buttons{
   display:flex;
   position:absolute;
@@ -111,28 +108,4 @@ h1{
   aspect-ratio: 1 / 1; /* Perfect square */
   object-fit: cover;
   border-radius: 15px;
-}
-.stickers{
-  position:absolute;
-}
-.stickers img{
-  position:relative;
-}
-.batman{  
-    width:200px;
-
-  top:100px;
-  left:-390px;
-  transform: rotate(-30deg);
-}
-.shitzu{
-  right:-290px;
-  transform: rotate(10deg);
-    width:200px;
-
-}
-.angel{
-  bottom:-470px;
-  width:300px;
-  z-index:-10;
 }
