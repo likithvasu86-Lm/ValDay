@@ -5,7 +5,7 @@ body{
   padding-bottom:500px;
   height:1200px;
   
-  background-image: url("pics/back.avif");
+  background-image: url("images/back.avif");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -71,4 +71,3 @@ h1{
 .polaroid6{
   top:496.8px;
 }
-
